@@ -1,0 +1,6 @@
+
+<! ELEMENT details (heading,tname,class, subject)>
+<! ELEMENT heading (#PCDATA)>
+<! ELEMENT fname (#PCDATA)>
+<! ELEMENTclass(#PCDATA)>
+<! ELEMENT subject(#PCDATA)>

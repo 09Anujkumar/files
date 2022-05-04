@@ -1,0 +1,32 @@
+details{
+     color: white;
+     background-color : #ffe6e6;
+     width: 100%;
+}
+ heading {
+     color: green;
+     font-size : 40px;
+     background-color : #ccccff;
+    text-align:center;
+  font-weight : bold;
+}
+
+ heading, tname,class, subject
+ {
+     display : block;
+}
+
+
+class, subject
+{
+ text-align:center;
+ color:black;
+ font-weight : bold;
+}
+
+tname {
+     font-size : 25px;
+     font-weight : bold;
+color:#ff471a;
+}
+

@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<body bgcolor="lightpink">
+
+<h3> REGISTRATION FORM</h3><br>
+<form>
+<label><b>NAME</b></label><br>
+<input type="text" id="mname" /><br><br>
+
+<label><b>LAST NAME</b></label><br>
+<input type="text" id="lname" /><br><br>
+
+<label><b>PHONE NUMBER</b></label><br>
+<input type="text" id="phone" /><br><br>
+
+<label><b>ADDRESS</b></label><br>
+<textarea cols="25" rows="3" id="address"></textarea><br><br>
+
+
+
+<label><b>GENDER</b></label><br>
+<input type="radio" id="m" />MALE<br>
+<input type="radio" id="f" />FEMALE<br>
+<input type="radio" id="0" />OTHERS<br><br>
+
+<label><b>EMAIL</b></label><br>
+<input type="email" id="email" /><br><br>
+
+
+<button onClick="validate()">submit</button>
+</form>
+
+<script>
+function validate()
+{
+var letters=/^[A-Za-z]+$/;
+
+var n=document.getElementById("mname").value;
+var n1=document.getElementById("lname").value;
+ 
+if(n.match(letters))
+alert(n);
+else  if(n=="")
+alert("ENTER CHARACTERS");
+else
+alert("ENTER CHARACTERS ONLY");
+
+if(n1.match(letters))
+alert(n1);
+else  if(n1=="")
+alert("ENTER CHARACTERS");
+else
+alert(" ENTER CHARACTERS ONLY");
+
+var num=/^d{10}$/;
+var phone=document.getElementById("phone").value;
+
+if(phone.match(num))
+alert(phone);
+else  if(phone=="")
+alert("ENTER  MOBILE NUMBER");
+else
+alert(" ENTER VALID MOBILE NUMBERS");
+
+var mail=document.getElementById("mail").value;
+var a=mail.Indexof("@");
+var b=mail.lastIndexof(".");
+
+if{ ( a<1 || b<a+2 || b+2=mail.length())
+       alert("ENTER A  VALID EMAIL ID");
+   
+  }
+
+
+}
+</script>
+</table>
+</body>
+</html>

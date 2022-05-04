@@ -1,0 +1,29 @@
+<html>
+   <head>      </head>
+   <body>
+   
+   <button onclick="click()" >click</button>
+   
+   <h1 id="demo">Mouse over me</h1>
+  <script>
+            
+document.getElementById("demo").onmouseover = function() {over()};
+document.getElementById("demo").onmouseout =  function() {out()};
+
+function click() 
+            {
+               alert("Hello World");
+            }
+function over()
+ {
+  document.getElementById("demo").style.color = "red";
+}
+
+function out() 
+{
+  document.getElementById("demo").style.color = "black";
+} 
+
+</script>   
+</body>
+</html>

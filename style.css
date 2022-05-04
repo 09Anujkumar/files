@@ -1,0 +1,52 @@
+.cover{
+
+animation: animate;
+animation-duration: 4s;
+animation-iteration-count: 1;
+
+height: 100%;
+}
+
+@keyframes animate {
+	from{background-color: orange;}
+	to{background-color:white;}
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+
+.vert{ 
+            padding-right:100px;	
+            border-left: 5px solid black;
+	    border-left-color:red;
+            height: 2000px;
+	    margin-left:80px;
+	    border-right:50px;
+}
+
+
+
+.p1
+{
+font: Bradley Hand ITC;
+color:red;
+}
+.p2
+{
+font: Marker Felt, fantasy;
+color:blue;
+}
+
+.p3
+{
+font: Marker Felt, fantasy;
+color:green;
+}
+

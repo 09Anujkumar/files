@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE details SYSTEM "details.dtd">
+<?xml-stylesheet type="text/css" href="tc.css"?>
+
+<details>
+    <heading>Welcome To JJ International School</heading>
+   
+<details>
+        <tname>TEACHER NAME -: DEEPIKA MAM</tname>
+        <class>CLASS CO-ODINATOR -: Batch 2019-22</class>
+        <subject>SUBJECT TEACHING -: 4 </subject>
+</details>
+    
+<details>
+        <tname>TEACHER NAME -: Dr. Varun Tiwari</tname>
+        <class>CLASS CO-ODINATOR -: Batch 2020-23</class>
+        <subject>SUBJECT TEACHING -: 5 </subject>
+</details>
+ 
+   <details>
+        <tname>TEACHER NAME -: Mr. Sanjay kumar</tname>
+        <class>CLASS CO-ODINATOR -: Batch 2021-24</class>
+         <subject>SUBJECT TEACHING -: 1 </subject>
+  </details>
+
+    
+  
+ <details>
+        <tname>TEACHER NAME -: Mr. Anuj kumar</tname>
+        <class>CLASS CO-ODINATOR -: Null</class>
+         <subject>SUBJECT TEACHING -: 3 </subject>
+       </details>
+
+<details>
+        <tname>TEACHER NAME -: Mr. Hemanth Singh</tname>
+        <class>CLASS CO-ODINATOR -: Null</class>
+        <subject>SUBJECT TEACHING -: 3 </subject>
+</details>
+
+</details>

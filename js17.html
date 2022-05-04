@@ -1,0 +1,67 @@
+<html>
+<head>
+</head>
+<body>
+  
+
+	First value<input type="text" id="v1"><br>
+	Second value<input type="text" id="v2"><br>
+
+	<button onClick="add()"> ADD </button>
+	<button onClick="sub()"> SUB </button>
+	<button onClick="mul()"> MUL </button>
+	<button onClick="div()"> DIV </button>
+<button onClick="c()"> C </button>
+	<br><br>
+<input type="text" id="ans">
+
+	
+<script>
+
+function add()
+{ 
+ var a,b,c;
+ a=parseInt(document.getElementById("v1").value);
+ b=parseInt(document.getElementById("v2").value);
+ c=a+b;
+ document.getElementById("ans").value=c;
+}
+
+
+function sub()
+{
+ var a,b,c;
+ a=parseInt(document.getElementById("v1").value);
+ b=parseInt(document.getElementById("v2").value); 
+ c=a-b;
+ document.getElementById("ans").value=c;
+}
+
+function mul()
+{
+var a,b,c;
+ a=parseInt(document.getElementById("v1").value);
+ b=parseInt(document.getElementById("v2").value);
+ c=a*b;
+ document.getElementById("ans").value=c;
+}
+
+function div()
+{
+var a,b,c;
+ a=parseInt(document.getElementById("v1").value);
+ b=parseInt(document.getElementById("v2").value);
+ c=a/b;
+ document.getElementById("ans").value=c;
+}
+ 
+function c()
+{
+document.getElementById("v1").value="";
+document.getElementById("v2").value="";
+document.getElementById("ans").value="";
+}
+</script>
+
+</body>
+</html>

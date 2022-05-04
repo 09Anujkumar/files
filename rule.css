@@ -1,0 +1,32 @@
+books {
+     color: white;
+     background-color : #ffe6e6;
+     width: 100%;
+}
+ heading {
+     color: green;
+     font-size : 40px;
+     background-color : #ccccff;
+    text-align:center;
+  font-weight : bold;
+}
+
+ heading, title,author, publisher, edition, price
+ {
+     display : block;
+}
+
+
+author, publisher, edition, price
+{
+ text-align:center;
+ color:black;
+ font-weight : bold;
+}
+
+ title {
+     font-size : 25px;
+     font-weight : bold;
+color:#ff471a;
+}
+

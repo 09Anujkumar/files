@@ -1,0 +1,20 @@
+<!doctype html>
+<head>  
+</head>  
+<body> 
+enter your color:<input type="text" id="a"><br>
+enter font weight:<input type="text" id="b">
+<p>your color looks like=</p><p id="con">this </p>
+<button onClick="change()">ok</button>
+
+<script>
+function change(){
+	var a=document.getElementById("a").value;
+	var b=document.getElementById("b").value;
+	
+	document.getElementById("con").style.color=a;
+	document.getElementById("con").style.fontWeight=b;
+}
+</script>  
+</body>  
+</html>  

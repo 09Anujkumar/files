@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head><title>odd even</title>
+</head>
+<body>
+<h3>Enter a Number</h3>
+
+<input type="text" id="num"><br>
+
+<button onClick="output()">Submit</button>
+
+<p id="ans"></p>
+<script>
+
+function output()
+{
+var a;
+a=parseInt(document.getElementById("num").value);
+if(a%2==0)
+document.getElementById("ans").innerHTML=a+" IS A EVEN NUMBER";
+
+else
+document.getElementById("ans").innerHTML=a +" IS A ODD NUMBER";
+
+}
+</script>
+</body>
+</html>
